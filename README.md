@@ -62,3 +62,4 @@ namespace fawzi
 
 
 ## Result:
+Thus the C# program to grade the marks is executed successfully
