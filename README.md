@@ -1,30 +1,26 @@
-# Grading-on-marks
-
+### EX NO : 03
+### DATE  : 07.04.2022
+# <p align="center">Grading-on-marks</p>
 ## Aim:
-To write a c# program to grade the marks.
-
-
+To write a C# program to grade the marks
 ## Algorithm:
-Step-1:
-Start.
-
-Step-2:
+### Step1: 
+Start
+### Step2:
 Create a class and declare one variable with integer datatype
-
-Step-3:
-Get marks from the User
-
-Step-4:
+### Step3:
+Get marks from the User.
+### Step4:
 Use if and elif condition to check the grade
+### Step5:
+print the grade for the given mark
+### Step6:
+stop
 
-Step-5:
-Print the grade for the given mark
-
-Step-6:
-Stop
+<br/><br/><br/><br/><br/><br/><br/><br/>
 
 ## Program:
-```
+```c#
 using System;
 namespace fawzi
 {
@@ -35,7 +31,7 @@ namespace fawzi
             int marks;
             Console.WriteLine("ENTER THE MARK:");
             marks = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("\nYOUR GRADE :");
+            Console.WriteLine("\nYOUR GRADE IS:");
             if (marks>90)
                 Console.WriteLine("O GRADE");
             else if (marks > 80)
@@ -55,11 +51,8 @@ namespace fawzi
     }
 }
 ```
-
-
 ## Output:
-![Online C# Compiler (Editor) - Google Chrome 28-04-2022 21_35_47](https://user-images.githubusercontent.com/75235022/165796165-c709055b-5cf7-48c2-b4bc-3eef23a74d01.png)
-
+![image](https://user-images.githubusercontent.com/75235488/175524120-bafc3c15-b794-4beb-a63d-16d4c5fffb0d.png)
 
 ## Result:
-Thus the C# program to grade the marks is executed successfully
+Thus the C# program to grade the marks is executed successfully.
